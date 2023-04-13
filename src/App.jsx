@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Home, Login, Logout, Register } from './components'
+// import { Home, Login, Logout, Register } from './components'
 import LogerContext from './context'
 
 import './App.css'
-import Dashboard from './components/Dashboard'
-import ProtectedRoute from './components/auth/ProtectedRoute'
-import About from './components/About'
+// import Dashboard from './components/Dashboard'
+// import ProtectedRoute from './components/auth/ProtectedRoute'
+// import About from './components/About'
 import ComingSoon from './components/ComingSoon'
 
 function App() {

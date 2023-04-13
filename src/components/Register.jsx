@@ -1,14 +1,14 @@
-import React from 'react'
-import RegComponent from './RegComponent'
+// import React from 'react'
+// import RegComponent from './RegComponent'
 
-function Register() {
-  return (
-    <div className='h-full bg-gray-200'>
+// function Register() {
+//   return (
+//     <div className='h-full bg-gray-200'>
       
-      Register here...
+//       Register here...
    
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default Register
+// export default Register

@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Logout() {
-  return (
-    <div>
-        Logout here
-    </div>
-  )
-}
+// function Logout() {
+//   return (
+//     <div>
+//         Logout here
+//     </div>
+//   )
+// }
 
-export default Logout
+// export default Logout
