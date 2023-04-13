@@ -7,6 +7,7 @@ import './App.css'
 import Dashboard from './components/Dashboard'
 import ProtectedRoute from './components/auth/ProtectedRoute'
 import About from './components/About'
+import ComingSoon from './components/ComingSoon'
 
 function App() {
 
@@ -15,14 +16,15 @@ function App() {
     <BrowserRouter>
     {/* <Nav/> */}
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
           
-          <Route path='login' element={<Login />} />
+          {/* <Route path='login' element={<Login />} /> */}
           {/*<Route path='/logout' element={<Logout />} />
           <Route path='/register' element={<Register />} /> */}
-          <Route path='dashboard' element={ <ProtectedRoute>
+          {/* <Route path='dashboard' element={ <ProtectedRoute>
             <Dashboard/>
-          </ProtectedRoute> } />
+          </ProtectedRoute> } /> */}
+          <Route path='/' element={<ComingSoon />} />
         </Routes>
     </BrowserRouter>
       </LogerContext>
