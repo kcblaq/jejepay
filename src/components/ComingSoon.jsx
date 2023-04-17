@@ -32,6 +32,7 @@ function ComingSoon() {
           )
           toast.success("We recieved your email")
           setEmail('')
+         
         } catch (error) {
           console.log(error)
           toast.error("Seems we already have your detail")
