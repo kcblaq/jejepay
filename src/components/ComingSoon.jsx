@@ -20,7 +20,7 @@ function ComingSoon() {
       } else {
         
         try {
-          await Api.post("/notify",
+          await Api.post("/waiting",
             JSON.stringify({ email }),
             {
               headers: {
